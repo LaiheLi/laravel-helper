@@ -11,7 +11,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=7.0.0",
-        "laravel/framework": "5.5.*",
+        "laravel/framework": "^5.5",
         "prettus/l5-repository": "^2.6"
     },
     "autoload": {
