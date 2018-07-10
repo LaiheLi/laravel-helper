@@ -1,0 +1,32 @@
+{
+    "name": "laiheli/laravel-helper",
+    "description": "laravel扩展",
+    "type": "library",
+    "authors": [
+        {
+            "name": "李玉亮",
+            "email": "156155812@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*",
+        "prettus/l5-repository": "^2.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaiheLi\\LaravelHelper\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaiheLi\\LaravelHelper\\LaravelHelperServiceProvider"
+            ]
+        }
+    }
+}
